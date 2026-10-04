@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Configuración de caracteres e icono de la pestaña -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JYS Fast | Almacenamiento de Alta Veloidadad NVMe y portatil</title>
+    <link rel="shortcut icon" href="icon-principal.png" type="image/x-icon">
+
+    <!-- Fuentes externas e Iconos -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Encabezado de la página principal -->
+    <header>
+        <!-- Logo principal con enlace al inicio -->
+        <a href="index.html">
+            <img src="imagenes/logo.svg" alt="Logo JYS Fast">
+        </a>
+
+        <!-- Menú de navegación principal -->
+        <nav class="menu-nav">
+            <a href="index.html">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#galeria">Galeria</a>
+            <a href="precios.html">Precio</a>
+            <a href="#">Contacto</a>
+            <a href="faq.html"><img src="imagenes/faq.svg" alt="preguntas frecuentes" width="20px" height="20px"></a>
+        </nav>
+
+        <!-- Botón para alternar modo oscuro -->
+        <button id="btnModoOscuro" class="btn-modo">🌙</button>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección Principal / Banner Hero -->
+        <section class="hero">
+            <div>
+                <h1>Velocidad absoluta sin límites</h1>
+                <p>Transfiere datos a velocidades récord de hasta 7,300 MB/s. Diseñados para gamers, creadores de
+                    contenido y profesionales de alto nivel.</p>
+            </div>
+            <img src="imagenes/imagen-hero.avif" alt="SSD de alta velocidad">
+        </section>
+
+        <!-- Encabezado de la sección de Unidades -->
+        <section class="nuestras-unidades">
+            <div>
+                <h2>Nuestras Unidades</h2>
+                <p>Rendimiento garantizado para almacenamiento interno y externo.</p>
+            </div>
+        </section>
+
+        <!-- Grilla de Tarjetas de Características -->
+        <section class="cards">
+            <!-- Tarjeta 1: Velocidad -->
+            <div class="card-caracteristicas">
+                <img src="imagenes/rayo.png" alt="imagen de muestra SDD" width="48px" height="48px">
+                <h3>Velocidad PCIe 5.0</h3>
+                <p>Aprovecha el ancho de banda masivo de las placas madre de última generación para transferir archivos
+                    gigabyte en fracciones de segundo.</p>
+            </div>
+
+            <!-- Tarjeta 2: Durabilidad -->
+            <div class="card-caracteristicas">
+                <img src="imagenes/seguridad.png" alt="Imagen de muestra un escudo" width="48px" height="48px">
+                <h3>Durabilidad Militar</h3>
+                <p>Nuestras unidades portátiles cuentan con chasis de aluminio reforzado y certificación IP67/IP68
+                    contra caídas, polvo y agua.</p>
+            </div>
+
+            <!-- Tarjeta 3: Seguridad -->
+            <div class="card-caracteristicas">
+                <img src="imagenes/candado.png" alt="Imagen muestra un candado" width="48px" height="48px">
+                <h3>Cifrado AES 256-Bit</h3>
+                <p>Protege tu información confidencial y proyectos creativos con encriptación por hardware de nivel
+                    bancario inquebrantable.</p>
+            </div>
+
+            <!-- Tarjeta 4: Disipación -->
+            <div class="card-caracteristicas">
+                <img src="imagenes/termometro.png" alt="Imagen con un icono de termometro" width="48px" height="48px">
+                <h3>Disipación Térmica Avanzada</h3>
+                <p>Almohadillas de nano-grafeno y disipadores de aluminio forjado que previenen el estrangulamiento
+                    térmico (thermal throttling).</p>
+            </div>
+        </section>
+
+        <!-- Encabezado Galería -->
+        <section class="nuestras-unidades" id="galeria">
+            <div>
+                <h2>GALERÍA DE PRODUCTO</h2>
+                <p>Explora la precisión artesanal y los acabados de alto nivel de nuestras unidades SSD.</p>
+            </div>
+        </section>
+
+        <!-- Imágenes de la Galería -->
+        <section class="galeria">
+            <img src="imagenes/1.png" alt="SSD de alta velocidad">
+            <img src="imagenes/2.png" alt="SSD de alta velocidad">
+            <img src="imagenes/3.png" alt="SSD de alta velocidad">
+            <img src="imagenes/4.png" alt="SSD de alta velocidad">
+        </section>
+
+        <!-- Sección de Encabezado de Testimonios -->
+        <section class="testimonios-header" id="testimonios">
+            <div class="testimonios-titulo-container">
+                <h2>LO QUE DICEN NUESTROS CLIENTES</h2>
+                <p>Experiencias reales de profesionales, gamers y creadores que confían en JYS Fast.</p>
+            </div>
+        </section>
+
+        <!-- Grid de Testimonios -->
+        <section class="testimonios-grid">
+            <!-- Tarjeta Testimonio 1 -->
+            <article class="testimonio-card">
+                <div class="testimonio-usuario">
+                    <img src="imagenes/avatar1.png" alt="Foto de Carlos Mendoza" class="testimonio-avatar">
+                    <div class="testimonio-info">
+                        <h3 class="testimonio-nombre">Carlos Mendoza</h3>
+                        <span class="testimonio-cargo">Editor de Video 4K / 8K</span>
+                    </div>
+                </div>
+                <p class="testimonio-texto">
+                    "Trabajar con archivos RAW de video solía congelar mi flujo de trabajo. Desde que uso el SSD NVMe
+                    PCIe 5.0 de JYS Fast, las renders y transferencias son instantáneas."
+                </p>
+                <div class="testimonio-rating" aria-label="Calificación 5 de 5 estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </article>
+
+            <!-- Tarjeta Testimonio 2 -->
+            <article class="testimonio-card">
+                <div class="testimonio-usuario">
+                    <img src="imagenes/avatar2.png" alt="Foto de Sofía Torres" class="testimonio-avatar">
+                    <div class="testimonio-info">
+                        <h3 class="testimonio-nombre">Sofía Torres</h3>
+                        <span class="testimonio-cargo">Fotógrafa y Creadora de Contenido</span>
+                    </div>
+                </div>
+                <p class="testimonio-texto">
+                    "Llevo el SSD portátil blindado a todas mis sesiones en exterior. Ha resistido caídas accidentales y
+                    polvo sin perder ni un solo archivo. ¡Totalmente recomendado!"
+                </p>
+                <div class="testimonio-rating" aria-label="Calificación 5 de 5 estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </article>
+
+            <!-- Tarjeta Testimonio 3 -->
+            <article class="testimonio-card">
+                <div class="testimonio-usuario">
+                    <img src="imagenes/avatar3.png" alt="Foto de Miguel Ramos" class="testimonio-avatar">
+                    <div class="testimonio-info">
+                        <h3 class="testimonio-nombre">Miguel Ramos</h3>
+                        <span class="testimonio-cargo">Gamer & Streamer</span>
+                    </div>
+                </div>
+                <p class="testimonio-texto">
+                    "Los tiempos de carga en juegos pesados prácticamente desaparecieron. Además, el disipador de
+                    nano-grafeno mantiene la temperatura óptima incluso tras horas de streaming."
+                </p>
+                <div class="testimonio-rating" aria-label="Calificación 5 de 5 estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </article>
+        </section>
+
+        <!-- Sección de Contacto y Formulario -->
+        <section class="Contacto">
+            <!-- Datos de Contacto Directo -->
+            <div class="contacto-datos">
+                <h2>¿Quieres saber mas de nuestros productos?</h2>
+                <h3>Contactanos</h3>
+                <div class="iconos-contacto">
+                    <img src="imagenes/email.svg" alt="Icono de Correo" width="30px" height="30px">
+                    <span>Jsczbyte@gmail.com</span>
+                </div>
+                <div class="iconos-contacto">
+                    <img src="imagenes/phone.svg" alt="Icono de Telefono" width="30px" height="30px">
+                    <span>944483760</span>
+                </div>
+                <div class="iconos-contacto">
+                    <img src="imagenes/location.svg" alt="Icono de ubicacion" width="30px" height="30px">
+                    <span>Jr. Rio Apurimac Mz L1 Lote 18</span>
+                </div>
+            </div>
+
+            <!-- Formulario de Consulta -->
+            <div class="formulario">
+                <form action="#" method="POST">
+                    <div>
+                        <h3>Envianos un mensaje</h3>
+                    </div>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre">
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required
+                            placeholder="Ingrese su correo electrónico">
+                    </div>
+                    <div>
+                        <label for="tipo-servicio">Tipo de servicio:</label>
+                        <select name="tipo-servicio" id="tipo-servicio" required>
+                            <option value="">Selecciona</option>
+                            <option value="Precio">Precio</option>
+                            <option value="Soporte">Soporte</option>
+                            <option value="Venta">Venta</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required placeholder="Ingrese su mensaje"></textarea>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="check">
+                        <label for="check">Acepto los terminos y condiciones de privacidad</label>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Pie de página -->
+        <footer>
+            <div class="footer-contenedor">
+                <div class="footer-logo">
+                    <img src="imagenes/logo.svg" alt="Logo JYS Fast">
+                    <p>La solución en almacenamiento de estado sólido de alta velocidad.</p>
+                </div>
+                <div class="redes-sociales">
+                    <a href="#" aria-label="Siguenos en Facebook">
+                        <img src="imagenes/facebook (1).png" alt="Facebook Oficial" width="30px" height="30px">
+                    </a>
+                    <a href="#" aria-label="Siguenos en Instagram">
+                        <img src="imagenes/instagram (1).png" alt="Icono Oficial de Instagram" width="30px"
+                            height="30px">
+                    </a>
+                    <a href="#" aria-label="Siguenos en LinkedIn">
+                        <img src="imagenes/linkedin (1).png" alt="Facebook Oficial" width="30px" height="30px">
+                    </a>
+                    <a href="#" aria-label="Siguenos en TikTok">
+                        <img src="imagenes/tik-tok.png" alt="Facebook Oficial" width="30px" height="30px">
+                    </a>
+                </div>
+
+                <p class="copy"> ©2026 Unidades de almacenamiento JYSPERU. Todos lo derechos reservados</p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Archivo JS complementario -->
+    <script src="script.js"></script>
+</body>
+
+</html>
